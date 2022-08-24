@@ -1,0 +1,74 @@
+/** ----* {
+    border: 1px dashed red; /** bordes en línea roja, después se borra**/
+/**    min-height: 10px; ---***/
+
+body {
+	background: black;
+	/**fondo del cuerpo**/
+	font-family: "Kalam", cursive;
+}
+
+.postcard {
+	/**clase de la postcard principal**/
+	background: white;
+	width: 450px;
+	/** ancho**/
+	height: 350px;
+	/** alto**/
+	margin: auto;
+	/**margen**/
+}
+
+.postcard-header {
+	/**cabeza postcard**/
+	display: flex;
+	/**display flex para colocar horizontal**/
+	padding: 10px;
+}
+
+.postcard-header h1 {
+	/**formato título 1**/
+	width: 100%;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.postcard-header img {
+	/**IMAGEN**/
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-leftp: first-child {
+	/**<!--también se puede colocar .no-margin"!-->**/
+	margin-top: 0;
+}
+
+.body-left,
+body-right {
+	padding: 10px;
+	margin: 0px 0px 0px px;
+	border: white 2px;
+}
+
+input {
+	/**FORMATO ENTRADA DE TEXTO**/
+	border: none;
+	border-bottom: 1px grey sold;
+}
+
+.postcard-footer {
+	text-align: center;
+
+	padding: 5px 10px;
+	border: none;
+}
+button {
+	background-color: #b4b4b4;
+	padding: 5px 10px;
+	border: none;
+}
